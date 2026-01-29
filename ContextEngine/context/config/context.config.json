@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "project": {
+    "name": "ContextEngine",
+    "description": ""
+  },
+  "relevance": {
+    "journal_window_days": 30,
+    "max_candidates": 200,
+    "boosts": {
+      "symbol_match": 0.3,
+      "path_overlap": 0.2,
+      "explicit_link": 0.5
+    },
+    "recency": {
+      "journal_max": 0.2,
+      "decay_per_day": 0.002
+    },
+    "min_score": 0.05
+  },
+  "llm": {
+    "consent_required": true
+  }
+}

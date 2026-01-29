@@ -1,0 +1,27 @@
+# Source files (dist is published)
+src/
+tests/
+
+# Config files
+.eslintrc.cjs
+.prettierrc
+tsconfig.json
+tsup.config.ts
+vitest.config.ts
+
+# Development files
+.git/
+.github/
+.vscode/
+.context-engine/
+context/
+
+# Documentation (README included, but not dev docs)
+docs/IMPLEMENTATION_PLAN.md
+MVP.md
+
+# Other
+*.log
+*.tgz
+coverage/
+node_modules/
